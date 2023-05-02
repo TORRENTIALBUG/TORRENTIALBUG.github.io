@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Stereotypes Quiz</title>
+    <script src="quiz.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gender Stereotypes Quiz</h1>
+    <div id="quiz-container">
+    </div>
+    <form id="answer-form">
+        <label>
+            <input type="radio" name="option" value="0">
+            Option 1
+        </label><br>
+        <label>
+            <input type="radio" name="option" value="1">
+            Option 2
+        </label><br>
+        <label>
+            <input type="radio" name="option" value="2">
+            Option 3
+        </label><br>
+    </form>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+    <div id="dynamic-text-container" style="display:none;">
+        <p id="dynamic-text"></p>
+        <button id="continue-btn" onclick="continueQuiz()">Continue</button>
+    </div>
+    <div id="results-container" style="display:none;">
+        <h2>Results</h2>
+        <p id="results-text"></p>
+        <button id="next-round-btn" onclick="nextRound()">Next Round</button>
+    </div>
+</body>
+
+</html>
