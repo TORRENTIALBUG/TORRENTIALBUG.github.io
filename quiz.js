@@ -111,11 +111,9 @@ function displayFeedback(score) {
     const dynamicTextContainer = document.getElementById("dynamic-text-container");
     dynamicTextContainer.style.display = "block";
     const dynamicText = document.getElementById("dynamic-text");
-    dynamicText.textContent = "Thank you!"
+    dynamicText.textContent = "Thank you!";
     for (let i = 1; i <= feedbackTextData.length; i++) {
         if (score < postTotalGrade * i / feedbackTextData.length) {
-            console.log(i)
-            console.log(feedbackTextData[i-1])
             dynamicText.textContent = feedbackTextData[i-1].join(" ");
             break;
         }
