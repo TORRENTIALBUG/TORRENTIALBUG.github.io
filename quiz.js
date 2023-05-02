@@ -29,8 +29,7 @@ How important is it to promote diversity and inclusion in the workplace?|Not imp
 
 Unfortunately this test doesn't seem to be that helpful. If you want to know more, please google related content. A better future starts with you and me!
 Thank you very much for taking part in this test. Hope it helps you. We encounter more prejudices in real life, and we should have the courage to challenge these stereotypes. If you want to know more, please google related content. A better future starts with you and me!
-It is good to know that your gender bias decreased after passing this test. I hope you can recall this knowledge in the actual workplace and avoid these deviations. Have a nice day!
-`;
+It is good to know that your gender bias decreased after passing this test. I hope you can recall this knowledge in the actual workplace and avoid these deviations. Have a nice day!`;
 
 const [preQuizContent, dynamicTextContent, postQuizContent, feedbackTextContent] = data.split("\n\n");
 if (!preQuizContent || !dynamicTextContent || !postQuizContent || !feedbackTextContent) {
